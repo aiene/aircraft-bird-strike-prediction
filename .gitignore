@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pkl
+*.joblib
+.ipynb_checkpoints/
+outputs/models/
+outputs/figures/
+outputs/diagnostics/
