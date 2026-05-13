@@ -4,7 +4,7 @@ Binary classification model to predict whether a bird strike incident resulted i
 
 ## Overview
 
-This project builds a predictive classifier from bird strike incident data. The target variable is `INDICATED_DAMAGE`—a binary indicator of whether damage was sustained. The model takes inputs like aircraft type, flight phase, altitude, bird species, and conditions at the time of strike to estimate damage risk.
+This project builds a predictive classifier from bird strike incident data. The target variable is `INDICATED_DAMAGE` a binary indicator of whether damage was sustained. The model takes inputs like aircraft type, flight phase, altitude, bird species, and conditions at the time of strike to estimate damage risk.
 
 The implementation combines data preprocessing, class imbalance correction via SMOTE, and model comparison between Random Forest and Logistic Regression pipelines, with threshold optimization based on F1 score.
 
